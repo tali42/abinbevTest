@@ -24,9 +24,9 @@ from pyspark.sql.types import *
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC CREATE SCHEMA IF NOT EXISTS brewries_bronze;
-# MAGIC CREATE SCHEMA IF NOT EXISTS brewries_silver;
-# MAGIC CREATE SCHEMA IF NOT EXISTS brewries_gold;
+# MAGIC CREATE SCHEMA IF NOT EXISTS bronze;
+# MAGIC CREATE SCHEMA IF NOT EXISTS silver;
+# MAGIC CREATE SCHEMA IF NOT EXISTS gold;
 
 # COMMAND ----------
 
